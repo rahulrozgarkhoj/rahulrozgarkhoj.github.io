@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1: Headings, Lists, Anchor, Table</title>
+</head>
+<style>
+      /* #headings{
+        color:green
+    } */
+    body{
+        background-color: rgba(0,0,0);
+        color:rgba(255,255,255);
+    }
+  /* #headings{color:blueviolet} */
+  .h1{color:red}
+  h1{color:blue}
+  .rel[href="about.html"]{
+      font-size: 50px;
+  }
+</style>
+<body>
+    <h1 id="headings" class="h1" >HTML: Headings</h1>
+    <hr>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr>
+    <h1>Lists:</h1>
+    <hr>
+    <h2>Ordered List</h2>
+    <ol start="0">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+        <li>list 5</li>
+    </ol>
+    <hr>
+    <h2>Unordered list</h2>
+    <ul type="square">
+        <li>list 1</li>
+        <li>list 2</li>
+        <li>list 3</li>
+        <li>list 4</li>
+        <li>list 5</li>
+    </ul>
+    <hr>
+<h1>Anchor</h1>
+<a href="https://www.google.com" download="true">googly</a>
+<a href="about.html" class="rel">Relative link</a>
+<a href="#headings">Go to Headings</a>
+<hr>
+<h1>Table</h1>
+<table>
+    <caption>table caption</caption>
+    <tr>
+        <td colspan="5">Merged cell</td>
+    </tr>
+
+    <tr>
+        <td rowspan="2">rows merged</td>
+        <td>cell 2</td>
+        <td>cell 3</td>
+        <td>cell 4</td>
+        <td>cell 5</td>
+    </tr>
+    <tr>
+        <td>cell 2</td>
+        <td>cell 3</td>
+        <td>cell 4</td>
+        <td>cell 5</td>
+    </tr>
+</table>
+</body>
+</html>
